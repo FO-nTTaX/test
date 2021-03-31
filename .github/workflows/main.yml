@@ -1,0 +1,15 @@
+name: Update repo
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  test-php:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run stuff
+      echo 'test'
