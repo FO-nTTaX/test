@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  test-php:
+  update:
     runs-on: ubuntu-latest
 
     steps:
